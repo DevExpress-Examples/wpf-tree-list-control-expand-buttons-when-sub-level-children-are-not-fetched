@@ -7,7 +7,7 @@
 
 This example demonstrates how to specify whether a child node has children (and should display the expand button) when the [TreeListView](https://docs.devexpress.com/WPF/9566/controls-and-libraries/data-grid/views/treelist-view) does not fetch sub-level nodes.
 
-The `TreeListView` in hierarchical binding mode fetches child nodes of sub-level nodes when you expand their parent node. This is done to determine whether to display expand buttons. You can set the [TreeListView.FetchSublevelChildrenOnExpand](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.TreeListView.FetchSublevelChildrenOnExpand) property to `false` to keep sub-level children unfetched. In this case, all child nodes display expand buttons (even if they do not have children). The expand button hides when you expand a node that does not contain child nodes:
+The `TreeListView` in hierarchical binding mode fetches child nodes of sub-level nodes when you expand their parent node. Such behavior is designed to determine whether to display expand buttons. You can set the [TreeListView.FetchSublevelChildrenOnExpand](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.TreeListView.FetchSublevelChildrenOnExpand) property to `false` to keep sub-level children unfetched. In this case, all child nodes display expand buttons (even if they do not have children). The expand button hides when you expand a node that does not contain child nodes:
 
 ![image](https://docs.devexpress.com/WPF/images/fetch-sub-level-children.gif)
 
