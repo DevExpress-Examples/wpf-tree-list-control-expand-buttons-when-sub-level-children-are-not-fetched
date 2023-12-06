@@ -37,3 +37,4 @@ As a result, the `TreeListView` does not fetch sub-level children to determine w
 
 * [WPF Tree List - Control Whether to Create Child Nodes](https://github.com/DevExpress-Examples/how-to-control-whether-to-create-child-nodes)
 * [WPF Tree List - Implement the Child Nodes Path](https://github.com/DevExpress-Examples/wpf-treelist-implement-childnodespath)
+* [WPF Tree List - Load Nodes Asynchronously Without Locking the Application's UI](https://github.com/DevExpress-Examples/wpf-treelist-load-nodes-asynchronously)
